@@ -485,13 +485,13 @@ header {
 /*slots*/
 
 /*promotion*/
-.filter-menu-bar {
+/* .filter-menu-bar {
     margin: 15px 0;
     min-height: : 54px;
     text-align: center;
     display: flex;
     justify-content: space-between;
-}
+} */
 .mix {
     display: none;
 }
@@ -697,7 +697,6 @@ ul.contactList li a{
     font-weight:bold;
 }
 
-}
 
 #slide_left ul li{
     background-color:#f46354;

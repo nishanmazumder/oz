@@ -1,1 +1,1 @@
-<h1>University wordpress template<h1># oz
+<h1>OZ || Online Gambling Reviews<h1># oz
