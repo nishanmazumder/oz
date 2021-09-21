@@ -96,10 +96,10 @@ $args = array(
 	'allow_sub_menu'            => true,
 
 	// The text to appear in the admin menu.
-	'menu_title'                => esc_html__('3WEBET', 'nmbet'),
+	'menu_title'                => esc_html__('OZ', 'nmbet'),
 
 	// The text to appear on the page title.
-	'page_title'                => esc_html__('3WEBETs', 'nmbet'),
+	'page_title'                => esc_html__('OZ', 'nmbet'),
 
 	// Enabled the Webfonts typography module to use asynchronous fonts.
 	'async_typography'          => false,

@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $('.slck').slick({
-        slidesToShow: 5,
+        slidesToShow: 3,
         slidesToScroll: 3,
         speed: 3000,
         responsive: [{

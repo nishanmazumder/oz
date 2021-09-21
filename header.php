@@ -36,7 +36,7 @@ global $nm3webet;
     <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?> data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+<body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
 
     <div id="content-body">
@@ -45,7 +45,7 @@ global $nm3webet;
             <section class="header-top">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-md-12 text-center">
                             <div class="logo">
                                 <?php
                                 if ($nm3webet['nm3betLogoUpload']) : ?>
@@ -73,22 +73,14 @@ global $nm3webet;
 
                             </div>
                         </div>
-
-                        <div class="col-8 headright">
-                            <div class="header-right nonlogin">
-                                <button type="submit" class="btn_login"><a href="<?php echo $nm3webet['nmLoginUrl']; ?>">LOGIN</a></button>
-                                <button type="button" class="btn_register"> <a href="<?php echo $nm3webet['nmRegUrl']; ?>">REGISTER</a></button>
-
-                            </div>
-                        </div>
                     </div>
                 </div>
 
             </section>
             <section class="header-menu">
                 <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-12 position-inherit">
+                    <div class="row no-gutters">
+                        <div class="col-12">
                             <div class="main-menu">
                                 <?php
                                 wp_nav_menu(

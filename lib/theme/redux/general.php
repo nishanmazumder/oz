@@ -29,20 +29,6 @@ Redux::set_section(
 				),
 			),
 			array(
-				'id'       => 'nmLoginUrl',
-				'type'     => 'text',
-				'title'    => esc_html__('Login URL', 'nmbet'),
-				'desc'     => esc_html__('Please add login url.', 'nmbet'),
-				'default'  => 'https://3webetsg.com',
-			),
-			array(
-				'id'       => 'nmRegUrl',
-				'type'     => 'text',
-				'title'    => esc_html__('Register URL', 'nmbet'),
-				'desc'     => esc_html__('Please add register url.', 'nmbet'),
-				'default'  => 'https://3webetsg.com',
-			),
-			array(
 				'id'       => 'nm404',
 				'type'     => 'media',
 				'url'      => true,

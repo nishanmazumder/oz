@@ -13,6 +13,25 @@ Text Domain: nm_theme
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 */
 
+.nm-img-full{
+    width: 100%;
+}
+
 /* Silence golden */
+
+.logo img{
+    width: 250px;
+}
+
+/* Home */
+.nm-home-content{
+    padding-top: 20px;
+}
+
+/* Sidebar */
+.nm-sidebar-home{
+    padding: 20px 10px;
+}
+
 
 /* @media only screen and (max-width:430px) {} */

@@ -71,10 +71,17 @@ class NM_THEME
         //     $content_width = 1240;
         // }
 
+        register_nav_menus(
+			array(
+				'main-menu' => esc_html__('Main Menu', 'nm_theme'),
+				'footer-menu' => esc_html__('Footer Menu', 'nm_theme'),
+			)
+		);
+
         register_post_type('games ', array(
 			'labels' 	=> array(
-				'name' 			=> __('Games', 'nmbet'),
-				'add_new_item'	=> __('Add New Games', 'nmbet'),
+				'name' 			=> __('Games', 'nm_theme'),
+				'add_new_item'	=> __('Add New Games', 'nm_theme'),
 			),
 			'public' 		=> true,
 			'has_archive' => true,
@@ -88,7 +95,7 @@ class NM_THEME
 			'games-category',
 			'games',
 			array(
-				'label' => __('Category', 'nmbet'),
+				'label' => __('Category', 'nm_theme'),
 				'hierarchical' => true,
 				'labels' => "Games",
 				'public' => true,
