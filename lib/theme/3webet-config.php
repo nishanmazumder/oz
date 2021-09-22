@@ -120,7 +120,7 @@ $args = array(
 	'global_variable'           => 'nm3webet',
 
 	// Show the time the page took to load, etc (forced on while on localhost or when WP_DEBUG is enabled).
-	'dev_mode'                  => true,
+	'dev_mode'                  => false,
 
 	// Enable basic customizer support.
 	'customizer'                => true,

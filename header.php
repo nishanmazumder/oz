@@ -78,8 +78,8 @@ global $nm3webet;
 
             </section>
             <section class="header-menu">
-                <div class="container-fluid">
-                    <div class="row no-gutters">
+                <div class="container-fluid nm-no-pad">
+                    <div class="row text-center">
                         <div class="col-12">
                             <div class="main-menu">
                                 <?php

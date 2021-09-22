@@ -2698,7 +2698,7 @@ button.wallet-btn:hover {
 
 
 a {
-    color: #6195ff;
+    color: #24598F;
     text-decoration: none;
     -webkit-transition: .2s opacity;
     transition: .2s opacity
@@ -3217,6 +3217,7 @@ header {
     background-color: #f3fc03 !important;
     border-color: #f6fd02 !important;
     margin: 0px auto !important;
+    padding-bottom: 25px !important;
 }
 
 .slick-arrow{

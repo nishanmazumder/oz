@@ -1,10 +1,7 @@
 <?php
-
-/**
- * Home Page
- * 
- * @package NM_OZ
- */
+/*
+	Template Name: Casino
+*/
 
 ?>
 
@@ -25,7 +22,7 @@
                     <div class="col-md-12 nm-home-content">
                         <?php if ($nm3webet['nmReconmandedTitle']) : ?>
                             <h4><?php echo $nm3webet['nmReconmandedTitle']; ?></h4>
-                        <?php endif; ?>  
+                        <?php endif; ?>
                     </div>
                     <!------- for cards ---------->
                     <!-- <div class="slck pt-3" style="width: 1250px!important;"> -->
@@ -81,7 +78,7 @@
                 </div>
 
                 <div class="row no-gutters">
-                    <div class="col-md-12">
+                    <div class="col-md-12 nm-home-content">
                         <?php
                         if ($nm3webet['nmHomeTextone']) {
                             echo do_shortcode($nm3webet['nmHomeTextone']);

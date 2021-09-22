@@ -32,10 +32,10 @@ section {
   display: block;
 }
 
-h1 {
+/* h1 {
   font-size: 14px;
   color: white;
-}
+} */
 
 /* p {
   color: white;
@@ -164,22 +164,22 @@ input {
   min-width: 120px;
 }
 
-html,
+/* html,
 body {
   min-width: 1000px;
-}
+} */
 
 html *,
 body * {
   font-family: "Work Sans";
 }
 
-.container {
+/* .container {
   min-width: 1000px;
   max-width: 1440px;
   margin: 0 auto;
   padding: 0px 19px;
-}
+} */
 
 @media screen and (max-width: 1440px) {
   #liveScore .live-score-container {
@@ -30922,7 +30922,7 @@ a.text-danger:focus {
 }
 
 .nmContainer {
-  width: 88%;
+  /* width: 88%; */
   padding: 0;
 }
 
@@ -30932,9 +30932,9 @@ a.text-danger:focus {
 }
 
 /**Menu**/
-#mega-menu-main-menu {
+/* #mega-menu-main-menu {
   text-align: left !important;
-}
+} */
 
 .nm-home-icon-menu a {
   font-size: 22px !important;
@@ -31026,8 +31026,8 @@ a.text-danger:focus {
 }
 
 .nm-blog-area {
-  padding: 20px 10px 40px;
-  background: #454545;
+  padding: 20px;
+  background: #f7f7f7;
   margin-bottom: 20px;
 }
 
@@ -31041,7 +31041,7 @@ a.text-danger:focus {
 } */
 
 .nm-blog-cat {
-  color: #fff;
+  color: #212529;
   margin: 15px auto;
 }
 
@@ -31051,7 +31051,7 @@ a.text-danger:focus {
 
 .pagination>li>a,
 .pagination>li>span {
-  color: #fff;
+  color: #212529;
   background-color: transparent;
   border: 1px solid #ddd;
 }
@@ -31061,10 +31061,10 @@ a.text-danger:focus {
   padding: 10px 20px;
 }
 
-.nm-sidebar-content {
+/* .nm-sidebar-content {
   background: #272626;
   padding: 10px 20px 30px;
-}
+} */
 
 .nm-sidebar-content .widget {
   margin-top: 20px !important;
@@ -31111,14 +31111,14 @@ a.text-danger:focus {
 }
 
 @media only screen and (max-width:780px) {
-  .nmContainer {
+  /* .nmContainer {
     padding-left: 50px;
     padding-right: 50px;
-  }
+  } */
 
-  .slckCard {
+  /* .slckCard {
     width: 270px !important;
-  }
+  } */
 
   .slckCard2 {
     width: 30%;
@@ -31177,7 +31177,7 @@ a.text-danger:focus {
   }
 
 
-  .nm-header-text {
+  /* .nm-header-text {
     font-size: 70px;
   }
   .nm-blog-area h1{
@@ -31198,5 +31198,5 @@ a.text-danger:focus {
 
   .nm-sidebar-content .cat-item a{
     font-size: 40px;
-  }
+  } */
 }

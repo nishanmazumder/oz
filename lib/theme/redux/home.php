@@ -47,6 +47,12 @@ Redux::set_section(
 		'icon'             => 'el el-pencil',
 		'fields'           => array(
 			array(
+				'id'       => 'nmReconmandedTitle',
+				'type'     => 'text',
+				'title'    => esc_html__('Recomanded Casino', 'nmbet'),
+				'default'  => 'Recomanded Casino',
+			),
+			array(
 				'id'       => 'nm3betCategory',
 				'type'     => 'select',
 				'url'      => true,

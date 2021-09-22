@@ -10,7 +10,7 @@
 <?php get_header(); ?>
 
 <!---------Banner--------------->
-<div class="container-fluid nm-no-gutters" style="max-width: 100%;">
+<div class="container-fluid nm-no-pad" style="max-width: 100%;">
     <div class="row no-gutters">
         <div class="col-md-12">
             <div class="nmBanner nmBlog-banner">
