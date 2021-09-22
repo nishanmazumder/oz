@@ -15,7 +15,15 @@
     <div class="container nmContainer">
         <div class="row no-gutters">
             <div class="col-md-12 nm_home_ads_top text-center">
-                <img src="<?php echo $nm3webet['nm3betads']['url']; ?>" style="height: auto; width: 100%">
+                <a href="<?php echo esc_url(get_post_meta(get_the_ID(), 'nm3AdsUrl', true)); ?>">
+                    <?php
+                    $adsImage = get_post_meta(get_the_ID(), 'nmBetAdsImg');
+                    if (!empty($adsImage)) : ?>
+                        <img src="<?php echo $adsImage[0]; ?>" style="height: auto; width: 100%">
+                    <?php else :  ?>
+                        <p>No ADS found!</p>
+                    <?php endif; ?>
+                </a>
             </div>
         </div>
 
@@ -25,7 +33,7 @@
                     <div class="col-md-12 nm-home-content">
                         <?php if ($nm3webet['nmReconmandedTitle']) : ?>
                             <h4><?php echo $nm3webet['nmReconmandedTitle']; ?></h4>
-                        <?php endif; ?>  
+                        <?php endif; ?>
                     </div>
                     <!------- for cards ---------->
                     <!-- <div class="slck pt-3" style="width: 1250px!important;"> -->

@@ -8,33 +8,6 @@
 
 defined( 'ABSPATH' ) || exit;
 
-//ads
-Redux::set_section(
-	$opt_name,
-	array(
-		'title'            => esc_html__('ADS', 'nmbet'),
-		'id'               => 'home_ads',
-		'desc'             => esc_html__('These fields for only home page!', 'nmbet'),
-		'subsection'       => true,
-		//'customizer_width' => '200px',
-		'icon'             => 'el el-pencil',
-		'fields'           => array(
-			array(
-				'id'       => 'nm3betads',
-				'type'     => 'media',
-				'url'      => true,
-				'title'    => __('ADS area', 'nmbet'),
-				'desc'     => esc_html__('Please upload ADS!', 'nmbet'),
-				//'full_width' => true,
-				'default'  => array(
-					'url' => get_template_directory() . '/src/assets/img/banner.jpg',
-				),
-
-			),
-		)
-	)
-);
-
 //Post type
 Redux::set_section(
 	$opt_name,

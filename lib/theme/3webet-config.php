@@ -247,26 +247,26 @@ $args['admin_bar_links'][] = array(
 // SOCIAL ICONS -> Setup custom links in the footer for quick links in your panel footer icons.
 // PLEASE CHANGE THEME BEFORE RELEASEING YOUR PRODUCT!!
 // If these are left unchanged, they will not display in your panel!
-$args['share_icons'][] = array(
-	'url'   => '//github.com/ReduxFramework/ReduxFramework',
-	'title' => 'Visit us on GitHub',
-	'icon'  => 'el el-github',
-);
-$args['share_icons'][] = array(
-	'url'   => '//www.facebook.com/pages/Redux-Framework/243141545850368',
-	'title' => 'Like us on Facebook',
-	'icon'  => 'el el-facebook',
-);
-$args['share_icons'][] = array(
-	'url'   => '//twitter.com/reduxframework',
-	'title' => 'Follow us on Twitter',
-	'icon'  => 'el el-twitter',
-);
-$args['share_icons'][] = array(
-	'url'   => '//www.linkedin.com/company/redux-framework',
-	'title' => 'Find us on LinkedIn',
-	'icon'  => 'el el-linkedin',
-);
+// $args['share_icons'][] = array(
+// 	'url'   => '//github.com/ReduxFramework/ReduxFramework',
+// 	'title' => 'Visit us on GitHub',
+// 	'icon'  => 'el el-github',
+// );
+// $args['share_icons'][] = array(
+// 	'url'   => '//www.facebook.com/pages/Redux-Framework/243141545850368',
+// 	'title' => 'Like us on Facebook',
+// 	'icon'  => 'el el-facebook',
+// );
+// $args['share_icons'][] = array(
+// 	'url'   => '//twitter.com/reduxframework',
+// 	'title' => 'Follow us on Twitter',
+// 	'icon'  => 'el el-twitter',
+// );
+// $args['share_icons'][] = array(
+// 	'url'   => '//www.linkedin.com/company/redux-framework',
+// 	'title' => 'Find us on LinkedIn',
+// 	'icon'  => 'el el-linkedin',
+// );
 
 // Panel Intro text -> before the form.
 if (!isset($args['global_variable']) || false !== $args['global_variable']) {
@@ -283,7 +283,7 @@ if (!isset($args['global_variable']) || false !== $args['global_variable']) {
 }
 
 // Add content after the form.
-$args['footer_text'] = '<p>' . esc_html__('This text is displayed below the options panel. It isn\'t required, but more info is always better! The footer_text field accepts all HTML.', 'your-textdomain-here') . '</p>';
+// $args['footer_text'] = '<p>' . esc_html__('This text is displayed below the options panel. It isn\'t required, but more info is always better! The footer_text field accepts all HTML.', 'your-textdomain-here') . '</p>';
 
 Redux::set_args($opt_name, $args);
 

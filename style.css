@@ -116,6 +116,12 @@ body{
     width: 100%;
 }
 
+.nmBanner img{
+    margin: 0px auto;
+    display: block;
+    width: 100%;
+}
+
 /* Footer */
 
 #mega-menu-wrap-footer-menu {
