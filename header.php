@@ -17,7 +17,7 @@ global $nm3webet;
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
 
-    <title>Trusted Online Casino Singapore 2021 | Best Online Betting Singapore | 3WEBET</title>
+    <title><?php echo get_bloginfo('name').' || '.get_bloginfo('description'); ?></title>
     <meta name="description" content="You can earn up to 50% welcome bonus when you open an online betting account with 3WEBET. Know the betting trends and statistics in Singapore and earn real money." />
     <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
     <link rel="canonical" href="https://casino.3webetsg.com" />
@@ -25,10 +25,10 @@ global $nm3webet;
 
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="Trusted Online Casino Singapore 2021 | Best Online Betting Singapore | 3WEBET" />
+    <meta property="og:title" content="OZ || Online Gambling Review" />
     <meta property="og:description" content="You can earn up to 50% welcome bonus when you open an online betting account with 3WEBET. Know the betting trends and statistics in Singapore and earn real money." />
-    <meta property="og:url" content="https://casino.3webetsg.com" />
-    <meta property="og:site_name" content="3WEBET - ONLINE GAMBLING SITE IN SINGAPORE" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="OZ - ONLINE GAMBLING SITE IN SINGAPORE" />
     <meta property="og:image" content="/3welogo.gif" />
 
     <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/src/assets/img/favicon.ico">
@@ -79,8 +79,8 @@ global $nm3webet;
             </section>
             <section class="header-menu">
                 <div class="container-fluid nm-no-pad">
-                    <div class="row text-center">
-                        <div class="col-12">
+                    <!-- <div class="row text-center">
+                        <div class="col-md-12 col-sm-12 col-xs-12"> -->
                             <div class="main-menu">
                                 <?php
                                 wp_nav_menu(
@@ -91,8 +91,8 @@ global $nm3webet;
                                 );
                                 ?>
                             </div>
-                        </div>
-                    </div>
+                        <!-- </div>
+                    </div> -->
                 </div>
             </section>
         </div>
