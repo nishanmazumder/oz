@@ -14,9 +14,11 @@
     <div class="row no-gutters">
         <div class="col-md-12">
             <div class="nmBanner nmBlog-banner">
-                <?php if ($nm3webet['blogBanner']) : ?>
-                    <img id="" src="<?php echo $nm3webet['blogBanner']['url']; ?>">
-                <?php endif; ?>
+                <a href="<?php echo $nm3webet['blogBannerLink']; ?>">
+                    <?php if ($nm3webet['blogBanner']) : ?>
+                        <img id="" src="<?php echo $nm3webet['blogBanner']['url']; ?>">
+                    <?php endif; ?>
+                </a>
             </div>
         </div>
     </div>
@@ -39,7 +41,7 @@
             <div class="col-md-9 col-sm-12 col-xs-12">
                 <h1 class="nm-header-text"><?php wp_title(''); ?></h1>
                 <div class="row">
-                    <?php    
+                    <?php
                     while (have_posts()) : the_post();
                         get_template_part('template-parts/content', 'blog');
                     endwhile;

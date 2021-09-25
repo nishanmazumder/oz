@@ -12,15 +12,11 @@
     <div class="container nmContainer">
         <div class="row no-gutters">
             <div class="col-md-12 nm_home_ads_top text-center">
-                <a href="<?php echo esc_url(get_post_meta(get_the_ID(), 'nm3AdsUrl', true)); ?>">
-                    <?php
-                    $adsImage = get_post_meta(get_the_ID(), 'nmBetAdsImg');
-                    if (!empty($adsImage)) : ?>
-                        <img src="<?php echo $adsImage[0]; ?>" style="height: auto; width: 100%">
-                    <?php else :  ?>
-                        <p>No ADS found!</p>
-                    <?php endif; ?>
-                </a>
+                <?php
+                if (function_exists('nm_ads_banner')) {
+                    nm_ads_banner();
+                }
+                ?>
             </div>
         </div>
 

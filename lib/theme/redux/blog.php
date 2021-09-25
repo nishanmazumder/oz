@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Redux Framework text config.
  * For full documentation, please visit: http://devs.redux.io/
@@ -6,7 +7,7 @@
  * @package Redux Framework
  */
 
-defined( 'ABSPATH' ) || exit;
+defined('ABSPATH') || exit;
 
 Redux::set_section(
 	$opt_name,
@@ -26,6 +27,14 @@ Redux::set_section(
 				// 'default'  => array(
 				// 	'url' => get_template_directory() . '/src/assets/img/3welogo.png',
 				// ),
+			),
+			array(
+				'id'       => 'blogBannerLink',
+				//'url'	=> true,
+				'type'     => 'text',
+				'title'    => esc_html__('Blog Banner Link', 'nmbet'),
+				'desc'     => esc_html__('This Link only for article page.', 'nmbet'),
+				'default'  => '#',
 			)
 		)
 	)
