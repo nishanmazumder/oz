@@ -37,8 +37,8 @@ class Assets
         wp_enqueue_style('nm-silck-css', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.0/slick.min.css');
         wp_enqueue_style('nm-silck-theme', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.0/slick-theme.min.css');
         
-        wp_enqueue_style('nm-3webetstyle', NM_DIR_URI . '/src/assets/styles/3webetstyle.css');
-        wp_enqueue_style('nm-main', NM_DIR_URI . '/src/main.css');
+        wp_enqueue_style('nm-3webetstyle', NM_DIR_URI . '/src/assets/styles/3webetstyle.min.css');
+        wp_enqueue_style('nm-main', NM_DIR_URI . '/src/main.min.css');
         wp_enqueue_style('stylesheet', NM_STYLE_URI, [], filemtime(NM_DIR_PATH . '/style.css'), 'all');
 
 

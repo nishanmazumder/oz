@@ -13,33 +13,33 @@ Text Domain: nm_theme
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 */
 
-body{
+body {
     overflow-x: hidden;
 }
 
-.nm-img-full{
+.nm-img-full {
     width: 100%;
 }
 
-.nm-no-pad{
+.nm-no-pad {
     padding-left: 0px;
     padding-right: 0px;
 }
 
 /* Silence golden */
 
-.logo img{
+.logo img {
     width: 250px;
     margin: 20px auto;
 }
 
 /* Home */
-.nm-home-content{
+.nm-home-content {
     padding-top: 20px;
 }
 
 /* Menu */
-#mega-menu-wrap-main-menu #mega-menu-main-menu{
+#mega-menu-wrap-main-menu #mega-menu-main-menu {
     display: inline-block;
 }
 
@@ -48,26 +48,27 @@ body{
 }
 
 /* ADS */
-.nm_home_ads_top img{
+.nm_home_ads_top img {
     width: 80% !important;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 
-.nm_casino_table_list ul li{
+.nm_casino_table_list ul li {
     list-style-type: disc !important;
     list-style: inside !important;
 }
 
 /* Post Carousel */
-.slick-next:before, .slick-prev:before{
+.slick-next:before,
+.slick-prev:before {
     color: #212529 !important;
     font-size: 30px !important;
 
 }
 
-.slick-prev{
+.slick-prev {
     left: -10px;
 }
 
@@ -77,32 +78,32 @@ body{
 
 
 /* Sidebar */
-.nm-sidebar-home{
+.nm-sidebar-home {
     padding: 20px 10px;
 }
 
-.widget{
+.widget {
     margin-bottom: 20px;
 }
 
-.widget li{
+.widget li {
     border-top: 1px solid #ececec;
     padding: 10px;
 }
 
-.widget li:first-child{
+.widget li:first-child {
     border-top: none;
 }
 
-.widget li a{
+.widget li a {
     color: #212529;
 }
 
-.widget li a:hover{
+.widget li a:hover {
     color: #24598F;
 }
 
-.widget-title{
+.widget-title {
     background: #212529;
     color: #fff;
     text-align: center;
@@ -112,14 +113,23 @@ body{
 }
 
 /* Blog */
-.nmBlog-banner img{
+.nmBlog-banner img {
     width: 100%;
 }
 
-.nmBanner img{
+.nmBanner img {
     margin: 0px auto;
     display: block;
     width: 100%;
+}
+
+.pagination {
+    margin-bottom: 30px;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+    padding: 5px 10px !important;
 }
 
 /* Footer */
@@ -128,28 +138,29 @@ body{
     width: 100%;
 }
 
-.nm-copyright{
+.nm-copyright {
     background: #212529;
     padding: 10px;
 }
 
-.nm-copyright p{
+.nm-copyright p {
     margin-bottom: 0px;
     color: #fff;
 }
 
 @media only screen and (max-width:600px) {
-    .nm_home_ads_top img{
+    .nm_home_ads_top img {
         width: 100% !important;
     }
 
-    .nm-casino-headings h5{
+    .nm-casino-headings h5 {
         font-size: 13px !important;
     }
-    .slick-prev{
+
+    .slick-prev {
         left: -7px;
     }
-    
+
     .slick-next {
         right: 3px;
     }
